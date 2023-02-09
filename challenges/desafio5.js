@@ -7,5 +7,5 @@ db.produtos.find(
     nome: 1,
     curtidas: 1,
     vendidos: 1,
-  }
+  },
 );

@@ -6,7 +6,7 @@ db.produtos.updateOne(
         $type: "date",
       },
     },
-  }
+  },
 );
 
 db.produtos.find(
@@ -15,5 +15,5 @@ db.produtos.find(
       $exists: true,
     },
   },
-  { _id: 0, nome: 1 }
+  { _id: 0, nome: 1 },
 );

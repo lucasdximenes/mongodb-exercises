@@ -7,5 +7,5 @@ db.produtos.find(
     valoresNutricionais: {
       $slice: 3,
     },
-  }
+  },
 );
